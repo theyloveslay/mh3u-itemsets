@@ -1,5 +1,5 @@
 # MH3U Item Sets
-Adds item sets to Monster Hunter 3 Ultimate (US and EU v32). Supports CEMU, Azahar/AzaharPlus, and 3DS.
+Adds item sets to Monster Hunter 3 Ultimate (US and EU v32). Supports CEMU, Azahar, and 3DS.
 
 <img width="1240" height="791" alt="image" src="https://github.com/user-attachments/assets/8ac06b9d-c1fc-4713-81bf-19d74e35df69" />
 
@@ -10,8 +10,20 @@ Adds item sets to Monster Hunter 3 Ultimate (US and EU v32). Supports CEMU, Azah
 - Supports renaming and deleting sets
 - Cycle through item list with L/R
 
+# Additional Information
 
-# Installation (CEMU)
+Your item sets are saved per user in ``mh3u_loadouts_user#_a.bin`` and ``mh3u_loadouts_user#_b.bin``. They are stored in different locations based on your platform.
+
+- CEMU: Save data folder
+- Azahar: SDMC folder
+- 3DS: Root folder
+
+These files are made to be compatible with each platform. For example, you can transfer these files from CEMU to your 3DS and the item sets will be loaded, regardless if its the same save file or not.
+
+
+# Installation
+**CEMU**
+
 Tested on Cemu v2.6.
 
 1. Download ``Cemu.zip`` from releases
@@ -19,8 +31,10 @@ Tested on Cemu v2.6.
 3. Open Cemu, ``right click MONSTER HUNTER 3 ULTIMATE -> Edit graphic packs``
 4. Ensure "Item Loadouts" is enabled and start the game.
 
+---
 
-# Installation (Azahar)
+**Azahar**
+
 Tested on Azahar and AzaharPlus 2126.2
 
 1. Download ``Azahar.zip`` from releases and extract its contents
@@ -28,7 +42,10 @@ Tested on Azahar and AzaharPlus 2126.2
 3. Open ``US\`` or ``EU\`` and paste the contents into your mods location.
 4. Start the game
 
-# Installation (3DS)
+---
+
+**3DS**
+
 Tested on Luma3DS v13.4 
 
 Note: It is highly recommended to back up files before installation.
@@ -38,3 +55,5 @@ Note: It is highly recommended to back up files before installation.
 3. Turn off your 3DS (if its not off already) and hold ``SELECT`` when powering on
 4. Ensure ``Enable game patching`` is enabled, then press ``START`` to save and boot
 5. Start the game
+
+
