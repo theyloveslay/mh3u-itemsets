@@ -10,17 +10,6 @@ Adds item sets to Monster Hunter 3 Ultimate (US and EU v32). Supports CEMU, Azah
 - Supports renaming and deleting sets
 - Cycle through item list with L/R
 
-# Additional Information
-
-Your item sets are saved per user in ``mh3u_loadouts_user#_a.bin`` and ``mh3u_loadouts_user#_b.bin``. They are stored in different locations based on your platform.
-
-- CEMU: Save data folder
-- Azahar: SDMC folder
-- 3DS: Root folder
-
-These files are made to be compatible with each platform. For example, you can transfer these files from CEMU to your 3DS and the item sets will be loaded, regardless if its the same save file or not.
-
-
 # Installation
 **CEMU**
 
