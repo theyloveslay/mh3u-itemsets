@@ -1,0 +1,2 @@
+-r cemu/requirements.txt
+-r 3ds/requirements.txt

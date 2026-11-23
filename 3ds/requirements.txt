@@ -1,0 +1,3 @@
+ziglang==0.17.1
+pyelftools==0.33
+unicorn==2.1.4

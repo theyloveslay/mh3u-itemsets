@@ -1,0 +1,31 @@
+# Generated builds and local Python environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+**/build/
+**/build-eu/
+**/install-build*/
+**/install-diagnostic*/
+**/graphicPacks/
+**/patches/
+
+# User-owned game inputs, saves and release artifacts
+inputs/
+*.rpx
+*.rpl
+*.cia
+*.3ds
+*.cxi
+*.cci
+*.app
+*.arc
+*.bin
+*.code
+*.bps
+*.ips
+*.elf
+*.o
+*.so
+*.zip
+*.7z
